@@ -13,6 +13,7 @@
 #->
 
 export FASTLANE_PASSWORD=$(read -n flpwd;echo $flpwd)
+
 ##UNLOCK KEYCHAIN FOR BUILD SIGNING
 
 security unlock-keychain -p MY_PASS ~/Library/Keychains/login.keychain
